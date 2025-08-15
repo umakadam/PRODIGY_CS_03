@@ -37,7 +37,7 @@ def check_password_strength(password):
     return strength, feedback
 
 def main():
-    print("🔐 Password Complexity Checker 🔐")
+    print(" Password Complexity Checker ")
     password = input("Enter your password: ")
 
     strength, feedback = check_password_strength(password)
